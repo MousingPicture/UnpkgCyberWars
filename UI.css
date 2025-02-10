@@ -1,0 +1,133 @@
+@import url('Root.css');
+
+*, html{
+    margin: var(--margin-padding-set);
+    padding: var(--margin-padding-set);
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-accent);
+}
+#ExampleCW {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--width1r);
+}
+#ExampleCW .rowNN{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--accent-color);
+    width: var(--header-wid);
+    height: var(--header-hei);
+    background-color: var(--background-color);
+}
+#ExampleCW .rowNN .content {
+    text-transform: var(--font-TransformUC);
+}
+.navss{
+    background-color: var(--accent-color);
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 5 0 0 1;
+}
+.navss .brands{
+    font-weight: var(--fontw700);
+    font-size: 1.5em;
+}
+.navss .SQRel{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style-type: none;
+}
+.SQRel li a{
+    text-decoration: none;
+    color: var(--basis-color);
+}
+.NavsCs{
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+    height: 80px;
+    background-color: #004aad;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.NavsCs .Hellonon{
+    width: 75px;
+    height: 75px;
+}
+
+.NavsCs ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    list-style-type: none;
+}
+.NavsCs ul:first-child{
+    margin-right: 1000px;
+}
+.NavsCs ul:last-child{
+    padding-right: 30px;
+}
+.NavsCs ul li a{
+    text-decoration: none;
+    color: var(--accent-color);
+}
+.navres{
+    overflow: hidden;
+    width: 100%;
+    background: linear-gradient(to right, white, violet);
+    position: fixed;
+    top: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+.navres .brandslogi{
+    font-size: 1rem;
+    width: 30%;
+    left: -35px;
+    position: relative;
+    top: -18px;
+}
+.navres .Brandslogi img{
+    padding-left: 20px;
+    padding-top: 40%;
+    width: 50px;
+}
+.navres li {
+    display: inline;
+}
+.navres a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    padding: 0 10px;
+    transition: .15s;
+}
+.navres a:hover{
+    color: beige;
+}
+
+#nav-butt{
+    display: none;
+}
+label{
+    display: none;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) and  (oriental:portait){
+
+}
